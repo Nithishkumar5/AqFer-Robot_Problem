@@ -30,3 +30,26 @@ Summary:
 Total Steps  : 7
 Move Forward  : 5
 Turn Left  : 2
+
+
+SAMPLE INPUT:
+0,0,N 2,3,S
+
+OUTPUT:
+Source: 0 0 N, Destination: 2 3 S
+Steps:
+Move Forward:  0 1 N
+Move Forward:  0 2 N
+Move Forward:  0 3 N
+Turn Left:  0 3 W
+Turn Left:  0 3 S
+Turn Left:    0 3 E
+Move Forward: 1 3 E
+Move Forward: 2 3 E
+Turn Left:    2 3 N
+Turn Left:  2 3 W
+Turn Left:  2 3 S
+Summary:
+Total Steps  : 11
+Move Forward  : 5
+Turn Left  : 6
